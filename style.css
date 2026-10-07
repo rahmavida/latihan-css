@@ -1,13 +1,13 @@
-/ 1. RESET & VARIABLES /
- {
+/* 1. RESET & VARIABLES */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 :root {
-    --navbar-bg: #4a6fa5;        
-    --bg-body: #f4f6f9;          
+    --navbar-bg: #4a6fa5;
+    --bg-body: #f4f6f9;         
     --card-bg: #ffffff;
     
     --primary: #58a4b0;           
@@ -24,7 +24,7 @@
     --edit-btn-hover: #5ea4b0;
 
     --border-color: #e2e8f0;
-    --text-color: #4a5568;        
+    --text-color: #4a5568;       
     --text-heading: #2d3748;
     
     --radius-sm: 6px;
@@ -40,7 +40,7 @@ body {
     background-color: var(--bg-body);
 }
 
-/ 2. NAVBAR /
+/* 2. NAVBAR */
 .navbar {
     height: 64px;
     padding: 0 28px;
@@ -71,7 +71,7 @@ body {
     align-items: center;
     gap: 32px;
     list-style: none;
-    margin-left: auto;  
+    margin-left: auto;   
     margin-right: 40px;  
 }
 
@@ -110,7 +110,7 @@ body {
     height: 20px;
 }
 
-/ 3. LAYOUT GRID /
+/* 3. LAYOUT GRID */
 .container {
     max-width: 1200px;
     margin: 24px auto;
@@ -120,7 +120,7 @@ body {
     gap: 20px;
 }
 
-/ 4. CARD COMPONENT /
+/* 4. CARD COMPONENT */
 .card {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
@@ -136,7 +136,7 @@ body {
     margin-bottom: 20px;
 }
 
-/ 5. FORM ELEMENT /
+/* 5. FORM ELEMENT */
 .form-group {
     margin-bottom: 16px;
 }
@@ -179,7 +179,7 @@ body {
     margin-top: 24px;
 }
 
-/ 6. BUTTONS /
+/* 6. BUTTONS */
 .btn {
     height: 38px;
     padding: 0 16px;
@@ -227,7 +227,7 @@ body {
     transform: scale(0.98);
 }
 
-/ 7. TABLE & SEARCH HEADER /
+/* 7. TABLE & SEARCH HEADER */
 .table-header {
     display: flex;
     align-items: center;
@@ -276,7 +276,7 @@ body {
     height: 16px;
 }
 
-/ 8. TABLE DESIGN /
+/* 8. TABLE DESIGN */
 .table-responsive {
     width: 100%;
     overflow-x: auto;
@@ -323,7 +323,7 @@ tbody tr:hover {
     text-align: center;
 }
 
-/ Action Buttons /
+/* Action Buttons */
 .actions {
     display: flex;
     justify-content: center;
@@ -364,7 +364,7 @@ tbody tr:hover {
     background-color: var(--danger-hover);
 }
 
-/ 9. PAGINATION /
+/* 9. PAGINATION */
 .pagination {
     display: flex;
     justify-content: flex-end;
@@ -396,7 +396,7 @@ tbody tr:hover {
     border-color: var(--primary);
 }
 
-/ 10. RESPONSIVE /
+/* 10. RESPONSIVE */
 @media (max-width: 900px) {
     .container {
         grid-template-columns: 1fr;
